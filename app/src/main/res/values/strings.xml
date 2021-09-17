@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RingGo</string>
+    <string name="placeholder_image">PlaceHolder Image</string>
+    <string name="_default">Default</string>
+    <string name="type">Type</string>
+    <string name="color">Color</string>
+    <string name="country">Country</string>
+    <string name="vrn">VRN</string>
+    <string name="vehicle_id">Vehicle ID</string>
+</resources>
