@@ -1,6 +1,7 @@
 # RingGo
 
 The app will make a network call upon launching. 
+-- Gradle build updated to 7.1.2
 
 ## Installation
 
