@@ -27,10 +27,8 @@ public class MainActivity extends AppCompatActivity {
     // creating variables
     List<Vehicles> vehiclesList;
     VehicleAdapter adapter;
-
     //View Binding in use
     private ActivityMainBinding binding;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

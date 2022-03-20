@@ -23,7 +23,7 @@ public class DetailsActivity extends AppCompatActivity {
 
 
         //receive data from bundle via intent
-        Vehicles vehicle = (Vehicles) getIntent().getExtras().getParcelable("Bundle");
+        Vehicles vehicle = getIntent().getExtras().getParcelable("Bundle");
 
         //set data to views
         binding.vehicleID.setText(String.valueOf(vehicle.getVehicleId()));
@@ -32,6 +32,5 @@ public class DetailsActivity extends AppCompatActivity {
         binding.color.setText(vehicle.getColor());
         binding.type.setText(vehicle.getType());
         binding.deFault.setText(String.valueOf(vehicle.get_default()));
-
     }
 }
